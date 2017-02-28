@@ -1,0 +1,59 @@
+.pdfviewer-container {
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	position: relative;
+	overflow: auto;
+}
+
+.pdfviewer-toolbar {
+	width: 100%;
+	height: 36px;
+	color: white;
+	background-color: #444;
+	line-height: 36px;
+	text-align: center;
+}
+.pdfviewer-toolbar button {
+	color: white;
+	background-color: transparent;
+	border: none;
+	padding: 4px 8px;
+	margin: 0 2px;
+}
+.pdfviewer-toolbar button:hover {
+	background-color: #666;
+	cursor: pointer;
+}
+.pdfviewer-toolbar input {
+	width: 4em;
+	color: white;
+	background-color: #666;
+	direction: rtl;
+	border: none;
+	padding: 4px;
+
+	-moz-appearance: textfield;
+	-webkit-appearance: none !important;
+}
+
+.pdfviewer-error {
+	width: 8em;
+	color: red;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	top: 10%;
+	left: calc(50% - 4em);
+	
+}
+.pdfviewer-error button {
+	color: white;
+	background-color: #666;
+	border: none;
+	padding: 4px 8px;
+}
+.pdfviewer-error button:hover {
+	cursor: pointer;
+}
